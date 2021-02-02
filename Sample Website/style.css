@@ -1,0 +1,136 @@
+*{
+    padding : 0;
+    margin :  0;
+}
+.wrapper{
+    background: url(bg-img.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    height:80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width:80px;
+    height:80px;
+    padding:20x 100x;
+
+}
+.navbar ul{
+    float:right;
+    margin-left: 20px;
+}
+.navbar ul li{
+    list-style : none;
+    margin : 0 8px;
+    display : inline-block;
+    line-height : 80px;
+}
+.navbar ul li a{
+
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:'Times New Roman',sans-serif;
+    transition:.4s;
+}
+.navbar ul li a.active,
+.navvar ul li a:hover{
+    background:red;
+    border: 2px;
+
+}
+.wrapper .centre{
+    position: absolute;
+    top:50%;
+    left:55%;
+    transform:translate(-55%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.centre h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width:900px;
+    text-align: center;
+}
+.centre h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width:400px;
+    margin-top: 10px;
+    margin-left: 250px;
+    text-align: center;
+}
+.wrapper h3{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    width:40px;    
+    text-align: left;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    user-select: none;
+}
+.centre .buttons{
+    margin: 35px 280px;
+
+}
+.buttons button{
+    color:white;
+    background: red;   
+    width:150px;
+    height:50px;
+    cursor: pointer;
+    font-size: 20;
+    font-weight: bold;
+    outline: none;
+    border:1px solid #fff;
+    border-radius: 25px;
+    transition: .5s;
+    text-decoration: none;
+}
+.buttons btn{
+    margin-left: 55%;
+}
+.buttons button:hover{
+    background-color: red;
+}
+.buttons2 button{
+    color:white;
+    background: red;   
+    width:150px;
+    height:50px;
+    cursor: pointer;
+    font-size: 30;
+    font-weight: bold;
+    outline: none;
+    border:1px solid #fff;
+    border-radius: 25px;
+    transition: .5s;
+    font-family:'Times New Roman',sans-serif;
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+}
+.head h1{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    padding:10;
+    font-family:'Times New Roman',sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    user-select: none;
+
+}
+ 
