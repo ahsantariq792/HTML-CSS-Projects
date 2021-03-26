@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    margin-left: 2px;
+    padding: 0px;
+}
+
+.header{
+    background-color: black;
+}
+.headerlist{
+    color: grey;
+    display:inline-block;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    padding:3px 5px;
+}
+
+.list{
+    display:inline-block;
+    font-size: 13px;
+    font-family: 'Times New Roman';
+    padding:3px 3px;
+}
+
+
+
+.navbar ul li.active,
+.navbar ul li:hover{
+    background:#D3D3D3;
+    border: 2px;
+}
+
+.paragraph{
+    margin-left: 100px;
+    margin-right: 300px;
+    font-size: 20px;
+}
+
+.capfont{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#date{
+    font-family: 'Comic Sans',cursive;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+#hr{
+    height: 3px;
+    background: black;
+}
+
+.heading{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.news{
+    display: inline-block;
+    padding: 0px;
+}
+
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.footer{
+    background-color: black;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.fl1{
+    font-size: 11px;
+    font-family: 'Times New Roman';
+    padding:5px 20px;    
+}
+
+.fl2{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px 20px; 
+}
