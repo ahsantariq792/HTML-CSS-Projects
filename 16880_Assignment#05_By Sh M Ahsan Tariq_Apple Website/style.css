@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    width:100%;
+    height:40px;
+    background: #333333;
+}
+
+.headerlist{
+    color: white;
+    font-size: 14px;
+    padding: 12px 30px;
+}
+
+.head{
+    width:100%;
+    height:25px;
+    padding-top: 16px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: #0071e3;
+}
+
+.onlineshop{
+    padding-top: 12px; 
+    font-size: 16px;
+    background-color: #f9f9f9;
+    height: 30px;
+}
+
+.opt{
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.title>p{
+    color: grey;
+}
+
+.iphone{
+    background-color: black ;
+    width: 100%;
+    height: 600px;
+}
+
+.iphone>h1{
+    color: white;
+}
+
+.iphone>p{
+    color: grey;
+}
+
+#h1{
+    font-size: 48px;
+}
+
+#h2{
+    font-weight: normal;
+}
+
+.b1{
+    width: 50%;
+    background: #2c2c2c;
+    float: left;
+}
+
+.b2{
+    width: 50%;
+    background: black;
+    float: right;
+}
+
+.b3{
+    width: 50%;
+    float: left;
+}
+
+.b3>h1{
+    font-size: 40px;
+}
+
+.b4{
+    width: 50%;
+    float: right;
+}
+
+.b5{
+    width: 50%;
+    float: left;
+    background : url(images/music.JPG);
+    background-size: 100%;
+    height: 500px;
+}
+
+.b6{
+    width: 50%;
+    float: right;
+    background : url(images/moon.JPG);
+    background-size: 100%;
+    height: 500px;
+}
+
+.watch{
+    display: inline;
+}
+
+
+#h1w{
+    font-size: 42px;
+    color:white;
+}
+
+#p1{
+    color:white;
+    line-height: 20px;
+}
+
+#paragraph{
+    color: grey;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-right: 200px;
+}
+
+.foot{
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.table{
+    color: grey;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.bottom{
+    color: grey;
+    font-size: 14px;
+    margin-left: 150px;
+
+}
