@@ -1,0 +1,184 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px;
+    height: 40px;
+
+}
+
+.navbar ul li:hover{
+    opacity: 0.6;;
+}
+
+.footer{
+    background-color: #201c1c;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 40px solid #383434;
+}
+
+.secA {
+    padding-right: 30px;
+    border-right: 2px solid black;
+    height: 250px;
+    font-size: 14px;
+}
+
+.secA ul li:before {
+    content: "";
+    border-color: transparent grey;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+
+.secB{
+    border-right: 2px solid black;
+    height: 220px;
+    padding: 20px;
+}
+
+.secB ul li{
+    display: inline-block;
+    
+}
+
+.secB ul li img{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.secC img{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secD ul li{
+    font-size: 12px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#fhd1{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login{
+    height: 100px;
+    width: 80px;
+    padding: 0px;
+    position: fixed;
+    top: 30%;
+    margin: 0px;
+}
+
+
+
+
+#ig1{
+    height: 100px;
+    width: 80px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 0px 10px;
+    
+
+
+}
+#ig2{
+    height: 60px;
+    width: 70px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 0px 10px;
+}
+
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row2{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row img:hover{
+    opacity: 0.6;
+}
+
+.section img:hover{
+    opacity: 0.6;
+    transform: scale(1.03);
+}
+
+.slider img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+
+
+#feature{
+    background-color: #201c1c;
+    color: grey;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 250px;
+
+}
+
+button{
+    background-color: #201c1c;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.section #ss{
+    justify-content: flex-end;
+    
+}
